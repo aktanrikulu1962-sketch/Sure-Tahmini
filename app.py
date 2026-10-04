@@ -209,7 +209,7 @@ if st.button("💰 Süreyi Tahmin Et", type="primary", use_container_width=True)
     else:
         st.markdown(f"""
         <div class="result-box">
-            <div class="value">{tahmin:,.0f} TL</div>
+            <div class="value">{tahmin:,.0f} Ay</div>
             <div class="label">Tahmini Süre</div>
         </div>
         """, unsafe_allow_html=True)
